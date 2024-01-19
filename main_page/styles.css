@@ -176,10 +176,11 @@ a {
   border-top: 10px solid var(--main_highlight);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #footer_logo {
-  width: 25%;
+  width: 30%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -244,7 +245,7 @@ a {
 /*-------------- Parallax -----------------*/
 
 .parallax {
-  min-height: 100vh;
+  min-height: 75vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -253,7 +254,7 @@ a {
 }
 
 .parallax01 {
-  background-image: url("images/Prom.jpg");
+  background-image: url("https://placehold.co/500x500");
 }
 .parallax02 {
   background-image: url("https://placehold.co/500x500");
